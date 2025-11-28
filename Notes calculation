@@ -1,0 +1,161 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyN62qVYP0JqdeV3Ymfgb5xZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nirobaicyse/open---doors---portfolio---np/blob/main/Notes%20calculation\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "fJMP_JM6IORQ",
+        "outputId": "5d41c8da-cca1-4acc-cb8f-75ebb9fa86fa"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (ipython-input-2704794152.py, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-2704794152.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    int main(){\u001b[0m\n\u001b[0m        ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "#include<stdio.h>\n",
+        "int main(){\n",
+        "\n",
+        "double N;\n",
+        "int notas,moedas;\n",
+        "scanf(\"%lf\",&N);\n",
+        "int money = N * 100;\n",
+        "printf(\"NOTAS:\\n\");\n",
+        "notas = money/ 10000;\n",
+        "printf(\"%d nota(s) de R$ 100.00\\n\", notas);\n",
+        "money %= 10000;\n",
+        "notas = money/5000;\n",
+        "printf(\"%d nota(s) de R$ 50.00\\n\", notas);\n",
+        "money %= 5000;\n",
+        "notas = money/2000;\n",
+        "printf (\"%d nota (s) de R$ 20.00\\n\",notas);\n",
+        "money %= 2000;\n",
+        "notas = money/1000;\n",
+        "printf (\"%d nota (s) de R$ 10.00\\n\",notas);\n",
+        "money %=  1000;\n",
+        "notas = money / 500;\n",
+        "printf (\"%d nota (s) de R$ 5.00\\n\",notas);\n",
+        "money %= 500;\n",
+        "notas = money/200;\n",
+        "printf (\"%d nota (s) de R$ 2.00\\n\",notas);\n",
+        "money %= 200;\n",
+        "   printf(\"MOEDAS:\\n\");\n",
+        "\n",
+        "    moedas = money / 100;\n",
+        "    printf(\"%d moeda(s) de R$ 1.00\\n\", moedas);\n",
+        "    money %= 100;\n",
+        "\n",
+        "    moedas = money / 50;\n",
+        "    printf(\"%d moeda(s) de R$ 0.50\\n\", moedas);\n",
+        "  money %= 50;\n",
+        "\n",
+        "    moedas = money / 25;\n",
+        "    printf(\"%d moeda(s) de R$ 0.25\\n\", moedas);\n",
+        "   money %= 25;\n",
+        "\n",
+        "    moedas =money / 10;\n",
+        "    printf(\"%d moeda(s) de R$ 0.10\\n\", moedas);\n",
+        "    money%= 10;\n",
+        "\n",
+        "    moedas = money / 5;\n",
+        "    printf(\"%d moeda(s) de R$ 0.05\\n\", moedas);\n",
+        " money %= 5;\n",
+        "\n",
+        "    moedas = money / 1;\n",
+        "    printf(\"%d moeda(s) de R$ 0.01\\n\", moedas);\n",
+        "\n",
+        "    return 0;\n",
+        "}\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "YKF01W2_IfiK"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
